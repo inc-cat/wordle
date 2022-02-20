@@ -103,6 +103,7 @@ try:
         del_index.append(date_cycle.index(index_del))
 except ValueError:
     print('Error! \nIncorrect date input')
+    exit()
 
 del_index.sort(reverse=True)
 
